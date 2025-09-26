@@ -52,7 +52,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&lt 0 LA(LC(LG(NUMBER_4)))>, <&to 0>, <&bt BT_NXT>;
+            bindings = <&lt 3 LA(LC(LG(NUMBER_4)))>, <&to 0>, <&bt BT_NXT>;
         };
 
         // Customed Hold-Tap for SandS
