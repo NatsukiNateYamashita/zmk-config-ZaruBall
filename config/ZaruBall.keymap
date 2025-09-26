@@ -79,7 +79,7 @@
             label = "COMPANY_EMAIL_ACCOUNT";
         };
 
-        company_nickname: company_pass {
+        company_nickname: company_nickname {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(N) &kp A &kp T &kp S &kp U &kp N9 &kp N2 &kp N9 &kp N5 &kp POUND>;
@@ -93,7 +93,7 @@
             label = "PRIVATE_EMAIL_ACCOUNT";
         };
 
-        private_nickname: private_pass {
+        private_nickname: private_nickname {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp N &kp A &kp T &kp S &kp U &kp N9 &kp N2 &kp N9 &kp N5>;
@@ -140,7 +140,7 @@
             bindings = <
 &kp GRAVE              &kp N1      &kp N2  &kp N3           &kp N4           &kp N5                                  &trans  &trans  &trans  &trans               &kp NUMBER_6  &kp N7  &kp N8     &kp N9     &kp N0    &kp BSLH
 &kp TAB                &kp Q       &kp W   &kp E            &kp R            &kp T                                   &trans  &trans  &trans  &trans               &kp Y         &kp U   &kp I      &kp O      &kp P     &kp SQT
-&kp LC(SPACE)          &kp A       &kp S   &kp D            &kp F            &kp G                      &kp LBKT     &trans  &trans  &trans  &trans    &kp RBKT   &kp H         &kp J   &kp K      &kp L      &kp SEMI  &kp UP
+&kp LG(SPACE)          &kp A       &kp S   &kp D            &kp F            &kp G                      &kp LBKT     &trans  &trans  &trans  &trans    &kp RBKT   &kp H         &kp J   &kp K      &kp L      &kp SEMI  &kp UP
 &kp LSHFT              &kp Z       &kp X   &kp C            &kp V            &kp B                      &kp MINUS    &trans  &trans  &trans  &trans    &kp EQUAL  &kp N         &kp M   &mkp LCLK  &mkp RCLK  &kp LEFT  &kp RIGHT
 &td_ps_lupper_lwin_bt  &kp C_MUTE          &mt LCTRL COMMA  &mt LALT PERIOD  &mt LGUI NON_US_BACKSLASH  &kp SPACE                                      &kp ENTER  &kp BSPC                                              &kp DOWN
             >;
