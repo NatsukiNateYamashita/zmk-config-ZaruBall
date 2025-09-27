@@ -14,9 +14,9 @@
 #define ADJUST   4
 #define SCROLL   2
 
-// スクロール量の設定
+// スクロール量の設定（小さくすると細かいスクロール）
 
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 50
 
 / {
     conditional_layers {
@@ -38,7 +38,7 @@
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
-            tap-ms = <20>; // スクロールのタップ時間
+            tap-ms = <100>; // スクロールのタップ時間（長くすると均一になる）
         };
 
         td_ps_lupper_lmac_bt: td_ps_lupper_lmac_bt {
